@@ -6,7 +6,7 @@ from wtforms import StringField, SubmitField, SelectField
 from wtforms.validators import DataRequired
 from datetime import datetime
 
-app = Flask(_name_)
+app = Flask(__name__)
 app.config['SECRET_KEY'] = 'top_secret_key_billy'
 
 bootstrap = Bootstrap(app)
