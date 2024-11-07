@@ -46,5 +46,5 @@ def index():
 def page_not_found(e):
     return render_template('404.html'), 404
 
-if _name_ == '_main_':
+if __name__ == '_main_':
     app.run(debug=True)
